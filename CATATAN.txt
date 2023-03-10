@@ -1,0 +1,113 @@
+cara install laravel :
+- php, composer, mysql, apache (xampp, laragon, wamp dll)
+
+cara membuat project laravel :
+composer create-project laravel/laravel nama_project (download versi terbaru)
+composer create-project laravel/laravel:^9.0 nama_project (download versi 9.0)
+
+cara jalanin server local :
+php artisan serve
+
+Ekstensi yang dibutuhkan laravel:
+- Laravel Extension Pack
+- php Debug
+- php intelephense
+- php intellesense
+- auto rename tag
+- auto close tag
+- auto complete tag
+- bootstrap 5 Quick Snippets
+- color highlight
+- Composer
+- CSS Peek
+- IntelliSense for CSS class names in HTML
+- Laravel Blade Spacer
+- Path Intellisense
+- Prettier - Code formatter
+- Svg Preview
+- vscode-icons
+
+
+Cara setting prettier :
+- ctrl + , (setting)
+- search "formatter
+
+
+Konsep MVC :
+- Model : class yang merepresentasikan data
+- View : tampilan
+- Controller : menghubungkan model dan view
+
+alur dari framework laravel :
+- request -> route -> controller -> model -> view -> response
+- route -> controller -> model -> view
+- route -> view
+- route -> controller
+- route -> controller -> view
+
+cli untuk membuat controller :
+php artisan make:controller NamaController
+php artisan make:controller BasicController
+php artisan make:controller BasicController --resource
+php artisan make:controller BasicController -r
+
+cara cek route :
+php artisan route:list
+
+cara membuat authorization & authentication :
+- laravel/ui (untuk vue, react, bootstrap)
+- breeze (tailwind css)
+- jetstream (livewire, vue, inertia)
+- fortify
+
+
+cara install laravel/ui :
+composer require laravel/ui
+php artisan ui bootstrap --auth
+npm install && npm run dev
+
+koneksi database :
+- .env
+- config/database.php (manual)
+- php artisan migrate (untuk melakukan migrasi database)
+
+cara membuat database migration :
+php artisan make:migration create_students_table
+cli untuk transaksi database :
+php artisan migrate (untuk melakukan migrasi database)
+php artisan migrate:rollback (untuk melakukan rollback database -> )
+php artisan migrate:refresh (untuk melakukan refresh database)
+php artisan migrate:reset (untuk melakukan reset database)
+php artisan migrate:fresh (untuk melakukan fresh database)
+
+cara membuat model CLI :
+php artisan make:model Student
+
+cara membuat model, migration, controller resources :
+php artisan make:model Product -m -c -r
+php artisan make:model Product -mcr
+
+cara testing atau buat seeder dan factory :
+php artisan make:seeder ProductSeeder
+php artisan make:factory ProductFactory --model=Product
+
+php artisan db:seed --class=ProductSeeder
+
+cara execution seeder :
+php artisan db:seed --class=ProductSeeder
+
+Cara membuat api di laravel :
+php artisan make:controller Api/ProductApiController
+
+buat route api :
+api.php
+
+cara membuat middleware :
+php artisan make:controller API/AuthController
+
+custom header ;
+php artisan make:middleware CustomHeader
+setting kernel
+route service privider
+
+brendanatalia1299@gmail.com

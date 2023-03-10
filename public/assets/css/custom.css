@@ -1,0 +1,41 @@
+.animasi {
+    animation: atasbawah 4s ease-in-out alternate-reverse infinite both;
+}
+
+/* ini untuk animasi keyframe */
+@keyframes atasbawah {
+    0%,
+    100% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.test {
+    margin-top: 200px;
+}
+
+/* css untuk sb admin custom */
+.text-custom {
+    font-size: 14px;
+}
+
+html,
+body,
+th,
+tr,
+td {
+    font-size: 14px;
+}
+
+label,
+input {
+    font-size: 16px;
+}
+
+.invalid-feedback,
+.alert {
+    font-size: 14px;
+}

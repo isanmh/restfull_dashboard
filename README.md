@@ -1,5 +1,5 @@
-# Training Restfull Api with Laravel 9 
-Final peoject membuat Backend Dashboard & Restfull API bersama BPD Lampung 2023
+# Training Secure App + Restfull Api with Laravel 9 
+Final project secure Backend Dashboard & Restfull API bersama BPD Lampung 2023
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>

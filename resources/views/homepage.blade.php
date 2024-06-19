@@ -6,8 +6,8 @@
             {{-- typograpgy --}}
             <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200"
                 class="col-md-6 pt-5 pt-lg-5 d-flex justify-content-center flex-column order-lg-1 order-2">
-                <h1>Continous Learning Keep Up to Date with
-                    <strong class="text-primary">Inixindo Bandung</strong>
+                <h1>Bring Us To A Digital Culture with
+                    <strong class="text-primary">Infotech Global Indonesia</strong>
                 </h1>
                 <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur mollitia rem
                     magnam facilis.

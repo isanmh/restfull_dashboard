@@ -25,6 +25,7 @@ Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 
 Route::get('/test', [ProductApiController::class, 'test']);
+Route::get('/products', [ProductApiController::class, 'index']);
 
 // middlawere auth:api
 // Route::get('/products', [ProductAPIController::class, 'index'])->middleware(['auth:sanctum', 'isAuth']);
@@ -32,7 +33,6 @@ Route::get('/test', [ProductApiController::class, 'test']);
 // Route::middleware(['auth:sanctum', 'isAuth'])->group(function () {
 Route::middleware(['auth:sanctum'])->group(function () {
     // resfull api products
-    Route::get('/products', [ProductApiController::class, 'index']);
     Route::post('/products', [ProductApiController::class, 'store']);
     Route::get('/products/{id}', [ProductApiController::class, 'show']);
     Route::put('/products/{id}', [ProductApiController::class, 'update']);
